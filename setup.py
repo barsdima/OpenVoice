@@ -30,7 +30,7 @@ setup(name='MyShell-OpenVoice',
             'faster-whisper==0.9.0',
             'pydub==0.25.1',
             'wavmark==0.0.3',
-            'numpy==1.22.0',
+            'numpy>=1.20.3,<1.24',
             'eng_to_ipa==0.0.2',
             'inflect==7.0.0',
             'unidecode==1.3.7',
@@ -43,4 +43,5 @@ setup(name='MyShell-OpenVoice',
       ],
       zip_safe=False
       )
+
 
